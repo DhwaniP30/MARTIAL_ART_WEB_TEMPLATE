@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Martial art.com</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        margin: 1px;
+        padding: 3px;
+        background-image: url('img/photos/tae-kwon-do--two-women-in-mid-air-jump-kicking-each-other-200113028-001-5a25743aaad52b00378732ff.jpg ');
+        background-size: cover;
+        color: rgb(244, 244, 244);
+        font-family: Arial, Helvetica, sans-serif;
+
+
+
+    }
+
+    .left {
+        position: absolute;
+        ;
+        left: 43px;
+        top: 3%;
+        /* border: 3px solid rgb(200, 31, 31); */
+        display: inline-block;
+
+    }
+
+    .center {
+        display: block;
+        padding: 8px;
+        ;
+        width: 38%;
+        margin: 10px auto;
+        /* border: 3px solid rgb(26, 21, 21); */
+
+    }
+
+    .right {
+        position: absolute;
+        padding: 8px;
+        width: 300px;
+        right: 4px;
+        top: 3%;
+        /* border: 3px solid rgb(34, 23, 158); */
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline block;
+    }
+
+    .left img {
+        width: 90px;
+        filter: invert(100%);
+
+
+
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .navbar li a {
+        color: rgb(231, 223, 218);
+        text-decoration: none;
+        padding: 12px;
+        margin: 0px
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(168, 102, 102);
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px 17px;
+        margin: 0px 10px;
+        background-color: rgb(19, 18, 18);
+        border: 2px solid grey;
+        color: white;
+        border-radius: 13px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: rgb(14, 0, 7);
+        background-color: rgb(104, 98, 100);
+    }
+
+    .container {
+        border: 3px solid white;
+        margin: 100px 54px;
+        padding: 70px 72px;
+        width: 30%;
+        border-radius: 9px;
+    }
+
+    .form-group input {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: block;
+        width: 360px;
+        padding: 1px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 9px auto;
+        font-size: 19px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 171px;
+        margin: auto;
+        text-align: center;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/photos/ATA-MARTIAL-ARTS-LOGO.jpg" alt="">
+            <div>ATA-MARTIAL-ARTS-CLASSES</div>
+        </div>
+
+
+
+
+        <!-- center box for navigation bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a> </li>
+                <li><a href="#"> about us </a></li>
+                <li><a href="#"> club infomation</a></li>
+                <li><a href="#"> contact us </a> </li>
+            </ul>
+        </div>
+
+        </div>
+        <!-- right side for sreaching & button -->
+        <div class="right">
+            <button class="btn">register now</button>
+            <button class="btn">more</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>quick registration form</h1>
+        <form action="nonaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone-no">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality ">
+
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Address">
+
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
